@@ -2574,6 +2574,7 @@ input, select, textarea {
 
 /*Header Background*/
 /*为了让背景可以透明，独立于header又弄了一个div*/
+/*
 	.header-background {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -2592,7 +2593,7 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background-color: #1f1815;
-		/*opacity: 0.8; /*让整个div都会透明*/
+		/*opacity: 0.8; /*让整个div都会透明
 		background-attachment: scroll;
 		background-image: url("../../images/bg.jpg");
 		background-position: top left;
@@ -2607,7 +2608,7 @@ input, select, textarea {
 		top: 0;
 		width: 25%;
 		
-	}
+	}*/
 
 /* Header */
 
@@ -2629,11 +2630,11 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background-color: rgba(31, 24, 21, 0.7);/*#1f1815*/;
-		/*background-attachment: scroll,	scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-attachment: scroll,	scroll;
+		background-image: url("images/overlay.png"), url("../../images/bg2.jpg");
 		background-position: top left,	top left;
 		background-repeat: repeat ,		no-repeat;
-		background-size: auto ,			160%;*/
+		background-size: auto ,			160%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
